@@ -208,7 +208,7 @@ const Main = () => {
       )) ||
         (image && <Text style={styles.emptyText}>{label}</Text>) || (
           <Text style={styles.emptyText}>
-            Use below buttons to select a picture of a potato plant leaf.
+           
           </Text>
         )}
     </View>

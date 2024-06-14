@@ -6,7 +6,7 @@ const Tips = ({ navigation }) => {
     <View style={styles.container}>
       <ImageBackground source={require('../assets/BG-03.jpg')} style={styles.backgroundImage}>
         <View style={styles.overlay}>
-          <Text style={styles.title}>Choose your languagess
+          <Text style={styles.title}>Choose your language
           </Text>
           <View style={styles.buttonsContainer}>
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Tamil')}>

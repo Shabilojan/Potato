@@ -12,13 +12,13 @@ const Menu = ({ navigation }) => {
           <TouchableOpacity
             style={styles.menuItem}
             onPress={() => navigation.navigate('Main', { action: 'gallery' })}>
-            <Image source={require('../img/5.png')} style={styles.menuIcon} />
+            <Image source={require('../img/4.png')} style={styles.menuIcon} />
             <Text style={styles.menuText}>Gallery</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.menuItem}
             onPress={() => navigation.navigate('Main', { action: 'camera' })}>
-            <Image source={require('../img/4.png')} style={styles.menuIcon} />
+            <Image source={require('../img/5.png')} style={styles.menuIcon} />
             <Text style={styles.menuText}>Camera</Text>
           </TouchableOpacity>
           <TouchableOpacity
@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
-    
   },
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.5)', 
@@ -67,6 +66,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 5,
     marginVertical: 10,
+    width: 200, 
+    justifyContent: 'center',
   },
   menuIcon: {
     width: 30,

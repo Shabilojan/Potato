@@ -25,7 +25,7 @@ const Home = ({ navigation }) => {
           <ActivityIndicator size="large" color="#00ff00" style={styles.activityIndicator} />
           <View style={styles.textView}>
             <Text style={styles.text}>Powered By</Text>
-            <Text style={styles.marginTop20}>Green Tech Investors</Text>
+            <Text style={styles.marginTop20}>Green Tech Innovators</Text>
           </View>
         </View>
       </ImageBackground>
